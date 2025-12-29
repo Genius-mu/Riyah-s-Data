@@ -113,6 +113,7 @@ const Contact = () => {
               <motion.a
                 key={index}
                 href={method.link}
+                alt="RAYAH'S BYTE BUZZ"
                 target="_blank"
                 rel="noopener noreferrer"
                 variants={fadeInUp}

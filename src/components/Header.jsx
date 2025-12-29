@@ -29,7 +29,11 @@ const Header = () => {
         <div className="container mx-auto px-4 sm:px-6 py-3 sm:py-4">
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <Link to="/" className="flex items-center gap-2.5 group">
+            <Link
+              to="/"
+              alt="RAYAH'S BYTE BUZZ"
+              className="flex items-center gap-2.5 group"
+            >
               <motion.div
                 whileHover={{ rotate: 360, scale: 1.1 }}
                 transition={{ duration: 0.6 }}
@@ -55,6 +59,7 @@ const Header = () => {
                     key={link.path}
                     to={link.path}
                     className="relative group"
+                    alt="RAYAH'S BYTE BUZZ"
                   >
                     <motion.div
                       whileHover={{ scale: 1.05 }}

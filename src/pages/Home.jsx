@@ -110,7 +110,11 @@ const Home = () => {
         {/* Add a real image */}
         <meta property="og:url" content="https://riyahdata.vercel.app/" />
         <meta name="twitter:card" content="riyahdata" />
-        <link rel="canonical" href="https://riyahdata.vercel.app/" />
+        <link
+          alt="RAYAH'S BYTE BUZZ"
+          rel="canonical"
+          href="https://riyahdata.vercel.app/"
+        />
       </Helmet>
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#1A237E] via-purple-600 to-[#FF4081] overflow-hidden">
@@ -168,7 +172,7 @@ const Home = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
-            <Link to="/plans">
+            <Link alt="RAYAH'S BYTE BUZZ" to="/plans">
               <motion.button
                 whileHover={{
                   scale: 1.05,
@@ -180,7 +184,7 @@ const Home = () => {
                 View Plans <ArrowRight className="w-5 h-5" />
               </motion.button>
             </Link>
-            <Link to="/about">
+            <Link alt="RAYAH'S BYTE BUZZ" to="/about">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -400,7 +404,7 @@ const Home = () => {
               Join thousands of satisfied customers enjoying instant airtime and
               data delivery
             </p>
-            <Link to="/plans">
+            <Link alt="RAYAH'S BYTE BUZZ" to="/plans">
               <motion.button
                 whileHover={{
                   scale: 1.05,

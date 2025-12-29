@@ -403,6 +403,7 @@ const FAQ = () => {
               Browse our affordable data plans and stay connected
             </p>
             <Link
+              alt="RAYAH'S BYTE BUZZ"
               to="/plans"
               className="inline-block bg-white text-[#1A237E] py-3 px-8 rounded-full font-bold text-base shadow-lg hover:shadow-xl transition-all"
             >
