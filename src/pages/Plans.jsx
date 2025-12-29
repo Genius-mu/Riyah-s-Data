@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Wifi, Clock, Star, Zap } from "lucide-react";
 import PlanCard from "../components/PlanCard";
+import { Helmet } from "react-helmet-async";
 
 const Plans = () => {
   const networks = [
@@ -108,6 +109,21 @@ const Plans = () => {
 
   return (
     <div className="w-full min-h-screen bg-gray-50">
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "RAYAH'S BYTE BUZZ",
+            url: "https://yourdomain.com",
+            potentialAction: {
+              "@type": "SearchAction",
+              target: "https://yourdomain.com/search?q={search_term_string}",
+              "query-input": "required name=search_term_string",
+            },
+          })}
+        </script>
+      </Helmet>
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-[#1A237E] via-[#1A237E]/80 to-[#FF4081] py-16 md:py-20 overflow-hidden">
         <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-20">
