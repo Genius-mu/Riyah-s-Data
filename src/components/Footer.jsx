@@ -213,7 +213,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="mailto:support@rayahsbytebuzz.com"
+                href="mailto:balogunameerah06@gmail.com"
                 className="flex items-center gap-3 text-gray-400 hover:text-purple-400 transition-colors group"
               >
                 <div className="w-10 h-10 bg-white/5 rounded-lg flex items-center justify-center group-hover:bg-purple-500/20 transition-colors">

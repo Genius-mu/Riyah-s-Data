@@ -67,8 +67,8 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      info: "support@rayahsbytebuzz.com",
-      link: "mailto:support@rayahsbytebuzz.com",
+      info: "balogunameerah06@gmail.com",
+      link: "mailto:balogunameerah06@gmail.com",
       color: "from-[#1A237E] to-[#FF4081]",
     },
   ];
